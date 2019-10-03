@@ -1,8 +1,6 @@
-/*
-Colors used:
-Primary Color (White): #ffffff;
-Secondary Color (Grey): #c5c5c5;
-*/
+* {
+    box-sizing: border-box;
+}
 
 
 
@@ -13,6 +11,62 @@ body {
     font-weight: 280; 
     line-height: 1.3; 
     color: #000000;
+}
+header {
+    background-color: rgb(255, 248, 208); 
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #4a4a4a;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 7px 7px 5px 0px rgba(168, 168, 168, 0.75);
+}
+.logo{
+    max-width: 250px;
+}
+nav > ul > li {
+    list-style-type: none;
+    padding: 0 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.introduction {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #4a4a4a;
+    border-radius: 5px;
+    text-align: center;
+}
+.inkubate {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #4fd68c;
+    border-radius: 5px;
+}
+.affinity {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #4fd68c;
+    border-radius: 5px;
+}
+.mainsection {
+    text-align: center;
+    background-color: rgb(255, 248, 208);
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid #4a4a4a;
+    border-radius: 5px;
+}
+.skillset {
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #4fd68c;
+    border-radius: 5px;
 }
 image {
     width: 100%;
@@ -70,4 +124,24 @@ a:hover {
 }
 #Getintouch {
     color: #EEE8A3;  
+}
+.inkstudy {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+#contact {
+    background-color: rgb(255, 248, 208);
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #4a4a4a;
+    border-radius: 5px;
+}
+.aboutme {
+    text-align: center;
+    align-content: center;
+}
+#resume {
+    text-align: center;
 }

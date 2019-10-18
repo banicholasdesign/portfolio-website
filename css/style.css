@@ -163,6 +163,8 @@ a:hover {
     text-align: center;
 }
 
+.img-responsive { width: 100%; }
+
 
 /*// ANIMATIONS //*/
 

@@ -161,10 +161,57 @@ a:hover {
 
 .container {
     text-align: center;
+    width: 100%;
 }
 
-.img-responsive { width: 100%; }
+.img-responsive { 
+    width: 100%; 
+}
 
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(129, 103, 46);
+    margin: 2px;
+    position: absolute;
+    top: -32px;
+    right: 0px;
+}
+
+.burger2 div {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(129, 103, 46);
+    margin: 2px;
+    position: absolute;
+    top: -26px;
+    right: 0px;
+}
+
+.burger3 div {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(129, 103, 46);
+    margin: 2px;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+.burger {
+    display: none;
+}
+
+.burger2 {
+    display: none;
+}
+
+.burger3 {
+    display: none;
+}
 
 /*// ANIMATIONS //*/
 
@@ -174,6 +221,7 @@ a:hover {
     animation-name: homework;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    top: -0px; 
 }
 
 @keyframes homework {
@@ -246,6 +294,7 @@ a:hover {
     to {
     transform: translate(100px, 48px);
     }
+
 }
 
 
@@ -257,7 +306,7 @@ a:hover {
 /*///// SMALL DEVICES /////*/
 
 
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 641px) {
 
     main {
     padding-top: 0px;
@@ -290,12 +339,66 @@ a:hover {
     .hero img {
         max-width: 100%;
     }
+
+    body {
+        overflow-x: hidden;
+    } 
+
+    .nav-links {
+        position: absolute;
+        right: -13px;
+        height: 52vh;
+        top: -2vh;
+        background-color: rgb(255, 248, 208);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(110%);
+        transition: transform 0.5s ease-in;
+        border: 3px solid #4a4a4a;
+        border-radius: 5px;
+        
+    }
+
+    .nav-links li {
+        opacity: 100;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger2 {
+        display: block;
+    }
+
+    .burger3 {
+        display: block;
+    }
+
+    
+}
+
+.nav-active {
+    transform: translateX(0%)
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
 }
 
 /*///// LARGE DEVICES /////*/
 
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .col-lg-8 {
     width: 66.66%;
     padding: 0 80px 0 0;

@@ -2,9 +2,9 @@
 //LET THE JAVASCRIPT COMMENCE
 
 
-alert("Hey there friend, Welcome to my website!");
+// alert("Hey there friend, Welcome to my website!"); 
 
-console.log("Hello World")
+// console.log("Hello World")
 
 const navSlide = () => {
     const burger = document.querySelector('.burger');

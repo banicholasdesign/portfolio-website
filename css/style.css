@@ -231,6 +231,16 @@ a:hover {
     text-align: center;
 }
 
+.hamsauce {
+    position: absolute;
+    top: -12px;
+    right: 0px;
+}
+
+.hamsauce {
+    display: none;
+}
+
 
 /*// ANIMATIONS //*/
 
@@ -367,7 +377,7 @@ a:hover {
         position: absolute;
         right: -13px;
         height: 52vh;
-        top: -2vh;
+        top: -0.5vh;
         background-color: rgb(255, 248, 208);
         display: flex;
         flex-direction: column;
@@ -395,6 +405,9 @@ a:hover {
         display: block;
     }
 
+    .hamsauce {
+        display: block;
+    }
     
 }
 

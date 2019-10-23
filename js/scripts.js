@@ -7,7 +7,7 @@
 // console.log("Hello World")
 
 const navSlide = () => {
-    const burger = document.querySelector('.burger');
+    const burger = document.querySelector('.hamsauce');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
 
